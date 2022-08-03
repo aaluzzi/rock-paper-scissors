@@ -3,9 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <div class="display">
+            <p class="scores">
+                <b>You:</b> <span id="score-player">0</span> - <b>CPU:</b> <span id="score-cpu">0</span>
+            </p>
+            <p class="choices">First to five wins!</p>
+            <p class="result">Make your choice below.</p>
+        </div>
+        <div class="buttons">
+            <button id="rock">🪨</button>
+            <button id="paper">📜</button>
+            <button id="scissors">✂️</button>
+        </div>
+        <button id="start">Begin New Game</button>
+
         <script src="script.js"></script>
     </body>
 </html>

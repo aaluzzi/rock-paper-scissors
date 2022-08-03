@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: "Arial", "Comic Sans", cursive;
+}
+
+.display {
+    margin: 48px;
+    font-size: 72px;
+    text-align: center;
+    border: 3px solid;
+    width: 700px;
+    height: 600px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 16px;
+}
+
+#start {
+    display: none;
+    font-size: 72px;
+    padding: 16px;
+}
+
+.buttons button {
+    height: 200px;
+    width: 200px;
+    font-size: 128px;
+}
+
+#score-player {
+    color: green;
+}
+
+#score-cpu {
+    color: darkred;
+}
